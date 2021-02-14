@@ -3,10 +3,14 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { ButtonsModule } from 'ngx-bootstrap/buttons';
+import { AdminThemeComponent } from './theme/admin-theme/admin-theme.component';
+import { DefaultThemeComponent } from './theme/default-theme/default-theme.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    AdminThemeComponent,
+    DefaultThemeComponent
   ],
   imports: [
     BrowserModule,
